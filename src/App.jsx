@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/login123" element={<Login />} />
+        <Route path="/login" element={<Login />} />
          <Route path="/veri-kumeleri" element={<DatasetsPage />} />
          <Route path="/datasets/new" element={<NewDatasetPage />} />
          <Route path="/datasets/:id" element={<DatasetDetail />} />
