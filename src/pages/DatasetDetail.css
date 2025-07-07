@@ -1,0 +1,39 @@
+.dataset-detail-container {
+  padding: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.back-btn {
+  margin-top: 10px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.dataset-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dataset-table th,
+.dataset-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.download-btn {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #1e88e5;
+}
