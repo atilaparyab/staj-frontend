@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#f5f5ec ",
-        color: "rgb(169, 169, 169)",
+        backgroundColor: "#bebebd ",
+        color: "rgb(255, 255, 255)",
         padding: "20px 40px",
         display: "flex",
         justifyContent: "space-between",
@@ -47,7 +47,7 @@ export default function Footer() {
 
 
 const iconStyle = {
-  color: "rgb(169, 169, 169)",
+  color: "rgb(255, 255, 255)",
   fontSize: "1.2rem",
   marginLeft: "15px",
   textDecoration: "none",

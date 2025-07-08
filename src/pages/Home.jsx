@@ -99,7 +99,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <img src="/FOTO9.png" alt="Bilim insanları" style={imageStyle} />
+        <img src="/FOTO11.png" alt="Bilim insanları" style={imageStyle} />
       </div>
 
       

@@ -194,6 +194,94 @@
 
 
 
+/* Sidebar */
+.datasets-page {
+  display: flex;
+}
 
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  width: 200px;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  height: 120vh; 
+  position: sticky;
+  top: 50px; 
+  transition: width 0.3s ease;
+}
+
+.sidebar.closed {
+  width: 50px;
+  overflow: hidden;
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  color: #283c52;
+  transform: translateX(5px); 
+}
+
+.sidebar-bottom {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-btn {
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(65, 64, 64);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #d0d2d4;
+}
+
+/* Ana İçerik */
+.datasets-container {
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+.sidebar-open {
+  margin-left: 200px;
+}
+
+.sidebar-closed {
+  margin-left: 50px;
+}
 
